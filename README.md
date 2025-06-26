@@ -20,21 +20,25 @@ An intelligent Python agent that automatically improves code quality in your Git
 
 ## Installation
 
-1. Clone this repository:
+1.**Clone this repository**
 ```bash
 git clone <repository-url>
 cd github-ai-agent
 ```
 
-2.Installing required Dependencies
-```pip install PyGithub google-generativeai python-dotenv openai```
+2.**Installing required Dependencies**
+```bash
+pip install PyGithub google-generativeai python-dotenv openai
+```
 
-3.create a .env file
+3.**create a .env file**
 GITHUB_TOKEN=your_github_personal_access_token
 GEMINI_API_KEY=your_gemini_api_key
 HF_TOKEN=your_huggingface_token
 
-4. Run the agent
-   ```python agent.py```
+4. **Run the agent**
+   ``` bash
+   python agent.py
+   ```
 
 
